@@ -1,0 +1,149 @@
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.background {
+    background-color: #131313;
+}
+
+.navbar {
+    background-color: #131313;
+}
+
+.navbar .nav-link {
+    color: rgba(231, 228, 223, 0.847);
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.navbar li {
+    padding-left: 20px;
+}
+
+.navbar li a:hover {
+    color: #8A2901;
+}
+
+.navbar .navbar-brand {
+    font-family: 'Aboreto', sans-serif;
+    font-size: medium;
+    color: rgba(231, 228, 223, 0.848)   
+}
+
+.navbar .navbar-brand:hover {
+    color: rgba(231, 228, 223, 0.848)  
+}
+
+.navbar-toggler-icon {
+    border: 1px solid rgba(231, 228, 223, 0.848);
+    border-radius: 2px;
+    background-color: rgba(231, 228, 223, 0.848) !important;
+}
+
+.jumbotron {
+  background-image: url("banner.jpg");
+  background-size: cover;
+  height: 80vh;
+  margin-top: 55px;
+  margin-bottom: 35px;
+}
+
+.jumbotron img {
+    margin-top: 125px;
+    margin-left: -30px;
+    height: 20vh;
+}
+
+.col-lg-3 {
+    border-left: 1.5px groove rgba(231, 228, 223, 0.3);
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 30px;
+}
+
+.col-lg-3 .img-fluid {
+    width: 80%;
+    border: 1.5px groove rgba(0, 0, 0, 0.195);
+    border-radius: 4px;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.253);
+}
+
+.col-lg-3 h3 {
+    text-transform: uppercase;
+    color: rgba(231, 228, 223, 0.847);
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    font-weight: bolder;
+}
+
+.col-lg-3 h4 {
+   padding-top: 10px; 
+   font-size: 18px;
+   color: rgba(231, 228, 223, 0.847);
+   font-weight: bolder;
+}
+
+.col-lg-3 .gifttext {
+    padding-bottom: 20px;
+}
+
+.col-lg-3 button {
+    margin-top: 25px;
+    background-color: none;
+    border-radius: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .jumbotron {
+       height: 50vh;
+    }
+
+    .jumbotron img {
+        margin-top: 80px;
+        height: 80px;
+        width: 320px;
+        margin-left: 40px;
+    }
+
+    .col-lg-3 .img-fluid {
+        width: 70%;
+    }
+
+    .col-lg-3 .gifttext {
+        padding-bottom: 0px;
+    }
+
+    .col-lg-3 button {
+        margin-top: 20px;
+    }
+
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+
+    .jumbotron {
+        height: 70vh;
+     }
+
+    .jumbotron img {
+        margin-top: 100px;
+        height: 20vh;
+        width: 80vw;
+    }
+
+     .col-lg-3 .img-fluid {
+        width: 50%;
+        height: auto;
+    }
+
+    .col-lg-3 .gifttext {
+        padding-bottom: 0px;
+    }
+
+    .col-lg-3 button {
+        margin-top: 20px;
+    }
+
+
+}

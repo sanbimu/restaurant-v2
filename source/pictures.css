@@ -1,0 +1,73 @@
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.background {
+    background-color: #8A2901;
+    height: 100vh;
+}
+
+.navbar {
+    background-color: #131313;
+}
+
+.navbar .nav-link {
+    color: rgba(231, 228, 223, 0.847);
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.navbar li {
+    padding-left: 20px;
+}
+
+.navbar li a:hover {
+    color: #8A2901;
+}
+
+.navbar .navbar-brand {
+    font-family: 'Aboreto', sans-serif;
+    font-size: medium;
+    color: rgba(231, 228, 223, 0.848)   
+}
+
+.navbar .navbar-brand:hover {
+    color: rgba(231, 228, 223, 0.848)  
+}
+
+.navbar-toggler-icon {
+    border: 1px solid rgba(231, 228, 223, 0.848);
+    border-radius: 2px;
+    background-color: rgba(231, 228, 223, 0.848) !important;
+}
+
+img {
+    border: 1px solid rgba(231, 228, 223, 0.847);
+    border-radius: 5px;
+}
+
+.btn {
+    margin-top: 25px;
+    padding-left: 400px;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .pt-5 {
+        background-color: #8A2901;
+    }
+
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    
+    .pt-5 {
+        background-color: #8A2901;
+    }
+
+    .card {
+        width: 50%;
+        height: auto;
+        margin-left: 160px;
+    }
+}

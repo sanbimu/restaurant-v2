@@ -1,0 +1,133 @@
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.background {
+    background-color: #8A2901;
+    height: 100vh;
+}
+
+.navbar {
+    background-color: #131313;
+}
+
+.navbar .nav-link {
+    color: rgba(231, 228, 223, 0.847);
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.navbar li {
+    padding-left: 20px;
+}
+
+.navbar li a:hover {
+    color: #8A2901;
+}
+
+.navbar .navbar-brand {
+    font-family: 'Aboreto', sans-serif;
+    font-size: medium;
+    color: rgba(231, 228, 223, 0.848)   
+}
+
+.navbar .navbar-brand:hover {
+    color: rgba(231, 228, 223, 0.848)  
+}
+
+.navbar-toggler-icon {
+    border: 1px solid rgba(231, 228, 223, 0.848);
+    border-radius: 2px;
+    background-color: rgba(231, 228, 223, 0.848) !important;
+}
+
+.map {
+    padding-top: 150px;
+}
+
+.info {
+    padding-top: 150px;
+}
+
+h3 {
+    color: rgba(231, 228, 223, 0.847);
+    text-transform: uppercase;
+    padding-left: 55px;
+}
+
+h4 {
+    color: rgba(231, 228, 223, 0.847);
+    padding-left: 55px;
+    padding-bottom: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .col-lg-6 {
+        background-color: #8A2901;
+    }
+
+    .map {
+        padding-top: 100px;
+    }
+    
+    .info {
+        padding-top: 0px;
+    }
+
+    iframe {
+        width: 280px;
+        height: 240px;
+        margin-left: 1.5em;
+        margin-right: 1.5em;
+    }
+
+    .col-lg-6 img {
+        width: 60vw;
+        padding-left: 35px;
+        margin-top: 25px;
+        margin-bottom: 15px;
+    }
+
+    .col-lg-6 h3 {
+        padding-left: 40px;
+        font-size: 18px;
+    }
+
+    .col-lg-6 h4 {
+        padding-left: 40px;
+        font-size: 16px;
+    }
+
+
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    
+    .col-lg-6 {
+        background-color: #8A2901;
+    }
+
+    .map {
+        padding-top: 100px;
+    }
+    
+    .info {
+        padding-top: 0px;
+    }
+
+    iframe {
+        height: 40vh;
+        margin-left: 1.5em;
+        margin-right: 1.5em;
+    }
+
+    .col-lg-6 img {
+        width: 60vw;
+        padding-left: 40px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+
+}

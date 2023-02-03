@@ -1,4 +1,4 @@
-FROM php:8.0.20-apache
+FROM php:8.2-apache
 
 ## Copy source code
 COPY ./source /var/www/html

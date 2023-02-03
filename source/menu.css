@@ -1,0 +1,102 @@
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.background {
+    background-color: #8A2901;
+}
+
+.navbar {
+    background-color: #131313;
+}
+
+.navbar .nav-link {
+    color: rgba(231, 228, 223, 0.847);
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.navbar li {
+    padding-left: 20px;
+}
+
+.navbar li a:hover {
+    color: #8A2901;
+}
+
+.navbar .navbar-brand {
+    font-family: 'Aboreto', sans-serif;
+    font-size: medium;
+    color: rgba(231, 228, 223, 0.848)   
+}
+
+.navbar .navbar-brand:hover {
+    color: rgba(231, 228, 223, 0.848)  
+}
+
+.navbar-toggler-icon {
+    border: 1px solid rgba(231, 228, 223, 0.848);
+    border-radius: 2px;
+    background-color: rgba(231, 228, 223, 0.848) !important;
+}
+
+.drinks{
+    color: #E1DBCF;
+    padding-top: 80px;
+    padding-left: 30px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Aboreto', sans-serif;
+}
+
+.food{
+    color: #E1DBCF;
+    padding-top: 10px;
+    padding-left: 30px;
+    margin-bottom: 0px;
+    font-family: ;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Aboreto', sans-serif;
+}
+
+.list-group-flush {
+    background-color: #8A2901;
+}
+
+.list-item
+{
+    border-bottom: 1px solid rgba(225, 219, 207, 0.3);
+    list-style-type: none;
+    color: rgba(225, 219, 207, 0.7);
+}
+
+.list-group {
+    margin-top: 10px;
+}
+
+.badge {
+    margin-left: 10px;
+    background-color: none;
+    border: 1px solid rgba(225, 219, 207, 0.3);
+}
+
+.text-secondary {
+    color: #8A2901!important;
+}
+
+.col-lg-10 {
+    margin-bottom: 50px;
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+
+.background {
+    background-color: #8A2901;
+    position:absolute; 
+    height:100%; 
+    width:100%;
+}
+
+}

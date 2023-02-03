@@ -1,0 +1,66 @@
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.titleDrinks {
+    margin-top: 100px; 
+    margin-left: 80px;
+    font-weight: 900;
+}
+
+#tableDrinks {
+    margin-top: 25px; 
+    margin-left: 80px;
+    border: 1px solid #black;
+}
+
+.colidd {
+    width: 50px;
+}
+.coldrink {
+    width: 250px;
+}
+.colbadged {
+    width: 80px;
+}
+.coldescd {
+    width: 400px;
+}
+.colpriced {
+    width: 80px;
+}
+.coldeleted {
+    width: 100px;
+}
+
+
+.titleFood {
+    margin-top: 100px; 
+    margin-left: 80px;
+    font-weight: 900;
+}
+
+#tableFood {
+    margin-top: 25px; 
+    margin-left: 80px;
+}
+
+.colidf {
+    width: 50px;
+}
+.colfood {
+    width: 250px;
+}
+.colbadgef {
+    width: 80px;
+}
+.coldescf {
+    width: 400px;
+}
+.colpricef {
+    width: 80px;
+}
+.coldeletef {
+    width: 100px;
+}
+
