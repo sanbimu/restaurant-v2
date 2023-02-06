@@ -3,12 +3,13 @@
 }
 
 .background {
-    background-color: #8A2901;
+    background-color: #131313;
     height: 100vh;
 }
 
 .navbar {
     background-color: #131313;
+    border-bottom: #8A2901 solid 2px;
 }
 
 .navbar .nav-link {
@@ -49,12 +50,13 @@ img {
 .btn {
     margin-top: 25px;
     padding-left: 400px;
+    color: #8A2901;
 }
 
 @media only screen and (max-width: 600px) {
     
     .pt-5 {
-        background-color: #8A2901;
+        background-color: #131313;
     }
 
 }
@@ -62,7 +64,7 @@ img {
 @media only screen and (min-width: 601px) and (max-width: 900px) {
     
     .pt-5 {
-        background-color: #8A2901;
+        background-color: #131313;
     }
 
     .card {

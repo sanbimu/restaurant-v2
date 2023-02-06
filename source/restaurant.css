@@ -3,12 +3,13 @@
 }
 
 .background {
-    background-color: #8A2901;
+    background-color: #131313;
     height: 100vh;
 }
 
 .navbar {
     background-color: #131313;
+    border-bottom: rgb(138, 41, 1) 2px solid;
 }
 
 .navbar .nav-link {
@@ -50,7 +51,7 @@
 }
 
 h3 {
-    color: rgba(231, 228, 223, 0.847);
+    color: #8A2901;
     text-transform: uppercase;
     padding-left: 55px;
 }
@@ -61,10 +62,12 @@ h4 {
     padding-bottom: 30px;
 }
 
+
+
 @media only screen and (max-width: 600px) {
     
     .col-lg-6 {
-        background-color: #8A2901;
+        background-color: #131313;
     }
 
     .map {
@@ -105,7 +108,7 @@ h4 {
 @media only screen and (min-width: 601px) and (max-width: 900px) {
     
     .col-lg-6 {
-        background-color: #8A2901;
+        background-color: #131313;
     }
 
     .map {

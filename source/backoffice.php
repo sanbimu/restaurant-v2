@@ -52,11 +52,34 @@ if(isset($_POST['Food'], $_POST['Badge'], $_POST['Description'], $_POST['Price']
        
     </head>
 <body>
+
+<!---------- NAVBAR ------------->
+
+
+<nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">  
+      <div class="navbar-brand">The house of tea</div>
+      <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="collapse" href="#collapseMenu" aria-expanded="false" aria-controls="collapseMenu">
+            Menu
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="collapse" href="#collapseContact" aria-expanded="false" aria-controls="collapseContact">
+            Contact
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
   
     <div class="container" id="containerOne">
-        <div class="row">
-          <div class="col-10">
-
+        <div class="collapse show" id="collapseMenu" style="">
+             <div class="row">
+                <div class="col-10">
 
 <!---------- DRINKS ------------->
 
@@ -124,7 +147,6 @@ if(isset($_POST['Food'], $_POST['Badge'], $_POST['Description'], $_POST['Price']
             </tr>
         </tbody>
     </table>
-
 
 <!---------- FOOD ------------->
 
@@ -194,9 +216,12 @@ if(isset($_POST['Food'], $_POST['Badge'], $_POST['Description'], $_POST['Price']
         </tbody>
     </table>
 
+           </div>
         </div>
       </div>
     </div>
+
+
 
 </body>
 </html>

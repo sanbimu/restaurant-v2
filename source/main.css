@@ -8,6 +8,7 @@
 
 .navbar {
     background-color: #131313;
+    border-bottom: #8A2901 solid 2px;
 }
 
 .navbar .nav-link {
@@ -46,6 +47,7 @@
   height: 80vh;
   margin-top: 55px;
   margin-bottom: 35px;
+  border-bottom: #8A2901 solid 2px;
 }
 
 .jumbotron img {

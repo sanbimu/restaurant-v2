@@ -1,10 +1,7 @@
 <?php 
 
 session_start();
-define('DB_HOST', 'database');
-define('USER', 'root');
-define('PASSWORD', 'root');
-define('DATABASE', 'restaurant_db');
+include('database.php');
 
 ?>
 
@@ -58,7 +55,7 @@ define('DATABASE', 'restaurant_db');
             <a href="restaurant.html" class="nav-link">Where to find us</a>
           </li>
           <li class="nav-item">
-            <a href="contact.html" class="nav-link">Contact</a>
+            <a href="contact.php" class="nav-link">Contact</a>
           </li>
         </ul>
       </div>
@@ -71,13 +68,12 @@ define('DATABASE', 'restaurant_db');
 
 <div class="container">
     <div class="row">
-        <div class="col-lg-10">
+        <div class="col-lg-5">
             <h3 class="drinks">Drinks</h3>
-            <ul class="list-group-flush">
+            <ul class="list-group-flush" id="listdrinks">
 <?php
             try {
     $connection = new PDO('mysql:host='.DB_HOST.';dbname='.DATABASE, USER, PASSWORD);
-    // Optimized query for faster results 
     $query = "SELECT * FROM `menu-drinks`";
     $stmt = $connection->prepare($query);
     $stmt->execute();
@@ -94,17 +90,20 @@ define('DATABASE', 'restaurant_db');
     }     
             } catch (PDOException $e) {
         echo "Connection failed: " . $e->getMessage();
-    // Stop execution to prevent any further issues
         die();
             }
 ?>           
-              </ul> 
-              <h3 class="food">Food</h3>
-            <ul class="list-group-flush">
+        </div>
+
+        <div class="col-lg-5">
+
+
+        </ul> 
+            <h3 class="food">Food</h3>
+            <ul class="list-group-flush" id="listfood">
 <?php
             try {
     $connection = new PDO('mysql:host='.DB_HOST.';dbname='.DATABASE, USER, PASSWORD);
-    // Optimized query for faster results 
     $query = "SELECT * FROM `menu-food`";
     $stmt = $connection->prepare($query);
     $stmt->execute();
@@ -121,12 +120,14 @@ define('DATABASE', 'restaurant_db');
     }     
       }     catch (PDOException $e) {
         echo "Connection failed: " . $e->getMessage();
-    // Stop execution to prevent any further issues
         die();
             }
 ?>
               </ul> 
+
         </div>
+
+
     </div>
 </div>
 

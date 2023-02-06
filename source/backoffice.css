@@ -2,6 +2,34 @@
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+.navbar {
+    background-color: #131313;
+}
+
+.navbar .nav-link {
+    color: rgba(231, 228, 223, 0.847);
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.navbar li {
+    padding-left: 20px;
+}
+
+.navbar li a:hover {
+    color: #8A2901;
+}
+
+.navbar .navbar-brand {
+    font-family: 'Aboreto', sans-serif;
+    font-size: medium;
+    color: rgba(231, 228, 223, 0.848)   
+}
+
+.navbar .navbar-brand:hover {
+    color: rgba(231, 228, 223, 0.848)  
+}
+
 .titleDrinks {
     margin-top: 100px; 
     margin-left: 80px;
@@ -35,7 +63,7 @@
 
 
 .titleFood {
-    margin-top: 100px; 
+    margin-top: 50px; 
     margin-left: 80px;
     font-weight: 900;
 }
