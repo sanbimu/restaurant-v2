@@ -59,19 +59,6 @@ if(isset($_POST['Food'], $_POST['Badge'], $_POST['Description'], $_POST['Price']
 <nav class="navbar navbar-expand-lg fixed-top">
     <div class="container">  
       <div class="navbar-brand">The house of tea</div>
-      <div class="collapse navbar-collapse" id="navmenu">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="collapse" href="#collapseMenu" aria-expanded="false" aria-controls="collapseMenu">
-            Menu
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="collapse" href="#collapseContact" aria-expanded="false" aria-controls="collapseContact">
-            Contact
-            </a>
-          </li>
-        </ul>
       </div>
     </div>
   </nav>
